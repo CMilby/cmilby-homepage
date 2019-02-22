@@ -1,33 +1,59 @@
-.App {
+.header-back {
+
+}
+
+.personal-img {
+  border-radius: 50%;
+  position: absolute;
+  width: 400px;
+  top: calc(50% - 200px);
+  left: calc(50% - 200px);
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+#banner {
+  z-index: 10;
+  background-color: #262626;
+  width: 100%;
+  height: 50px;
+  box-shadow: 0px 1px 50px #5E5E5E;
+  position: fixed;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#banner a {
+  font-family: verdana;
+  text-decoration: none;
+  color: #EDEDED;
 }
 
-.App-link {
-  color: #61dafb;
+#banner a :hover {
+  color: #BDBDBD;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.banner-title {
+  color: #EDEDED;
+  font-family: verdana;
+  font-size: 25px;
+  width: 350px;
+  margin-top: 6px;
+  margin-left: 6px;
+  font-weight: bold;
+}
+
+.banner-subtitle {
+  color: #EDEDED;
+  font-family: verdana;
+  font-size: 15px;
+}
+
+#banner-nav {
+  text-align: right;
+  margin-right: 10px;
+  list-style-type: none; 
+}
+
+#banner-nav li {
+  height: 50px;
+  display: inline;
+  padding: 10px;
 }
