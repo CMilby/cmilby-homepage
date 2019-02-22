@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/cmilby-homepage/precache-manifest.a8a0cf897e7955eac90d3aef8245cce7.js"
+  "/cmilby-homepage/precache-manifest.393aaaedec8cf3e25f63b7229d1141f7.js"
 );
 
 workbox.clientsClaim();
